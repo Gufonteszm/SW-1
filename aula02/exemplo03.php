@@ -1,5 +1,14 @@
 <?php
-$a = 10;
-$b = 5;
-echo "soma: " . ($a + $b);
+$a = 3;
+$b = 7;
+echo "resultado: " . ($a / $b);
+
+echo "<hr>";
+
+$x = true;
+$y = false;
+
+$result = $x && $y;
+
+echo "resultado: $result";
 ?>
