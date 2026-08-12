@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca local</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+    <h1>valide seu CPF</h1>
+    <form action="vcpf.php" method="POST">
+
+        <div class="campo">
+            <label for="nome">nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </div>
+
+        <div class="campo">
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+        </div>
+
+        <button type="submit">Validar CPF</button>
+    </form>
+
+    <form action="imc.php" method="POST"></form>
+        <h1>valide seu CPF</h1>
+        
+
+        <div class="campo">
+            <label for="peso">peso</label>
+            <input type="text" id="peso" name="peso" placeholder="Seu peso em Kg" required>
+        </div>
+
+        <div class="campo">
+            <label for="cpf">altura</label>
+            <input type="text" id="altura" name="altura" placeholder="Sua altura em Metros" required>
+        </div>
+
+        <button type="submit">Calcular IMC</button>
+    </form>
+
+    </main>
+</body>
+</html>
